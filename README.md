@@ -42,7 +42,7 @@ Akamai does not maintain or regulate this package. While it can be incorporated 
 
 3. Add the netstorage-api-postman.js contents under "Pre-request Script"
 
-![NetStorage Pre-Request Script](ns_pre-request-script.jpg)
+![NetStorage Pre-Request Script](images/ns_pre-request-script.jpg)
 
 4. Send the request.
 
@@ -55,6 +55,6 @@ Akamai does not maintain or regulate this package. While it can be incorporated 
 
 3. In the body section select "form-data" and "File" from the KEY field. Point it to your file to upload.
 
-![NetStorage Upload File API](ns_put_file_api.jpg)
+![NetStorage Upload File API](images/ns_put_file_api.jpg)
 
 For any other use case like listing a directory, deleting a file, updating a file, etc make sure to properly adjust the method, URL, body and action parameters.
