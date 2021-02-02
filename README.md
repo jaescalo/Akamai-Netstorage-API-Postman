@@ -1,5 +1,6 @@
 # Akamai Netstorage (NS4) API for Postman
 Enables the authorization for Akamai's NetStorage API through environment variables and pre-request script.
+This code was derived from the official Akamai [NetStorage Node Kit](https://github.com/akamai/NetStorageKit-Node)
 
 ## Important
 Akamai does not maintain or regulate this package. While it can be incorporated to assist you in API use, Akamai Technical Support will not offer assistance and Akamai cannot be held liable if issues arrise from its use. 
