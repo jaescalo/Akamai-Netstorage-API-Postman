@@ -45,7 +45,11 @@ Akamai does not maintain or regulate this package. While it can be incorporated 
 
 ![NetStorage Pre-Request Script](https://github.com/jaescalo/Akamai-Netstorage-API-Postman/blob/main/images/ns_pre-request-script.jpg)
 
-4. Send the request.
+4. Make sure the correct environment is selected from the Postman Environments pull down menu. Failure to do so will result in a `Cannot read property 'sigBytes' of undefined` error.
+
+![NetStorage Postman Environment](https://github.com/jaescalo/Akamai-Netstorage-API-Postman/blob/main/images/ns_postman_environment.jpg)
+
+5. Send the request.
 
 #### Example: Upload a File
 
