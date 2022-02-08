@@ -21,7 +21,7 @@ Akamai does not maintain or regulate this package. While it can be incorporated 
     * `keyName` (add the upload account name under "CURRENT VALUE")
     * `key` (add the NS Upload Account API Key under "CURRENT VALUE")
 
-![Postman Enviroment Variables for NetStorage](images/ns_env_variables.jpg)
+![Postman Enviroment Variables for NetStorage](https://github.com/jaescalo/Akamai-Netstorage-API-Postman/blob/main/images/ns_env_variables.jpg)
 
 ### Request
 1. Create a new [Postman Request](https://learning.postman.com/docs/sending-requests/requests/)
@@ -29,7 +29,7 @@ Akamai does not maintain or regulate this package. While it can be incorporated 
     * For the hostname use the NS API hostname, which should look like *-nsu.akamaihd.net
     * Add the path to the folder or file
 
-![NetStorage Request URL](images/ns_req_url.jpg)
+![NetStorage Request URL](https://github.com/jaescalo/Akamai-Netstorage-API-Postman/blob/main/images/ns_req_url.jpg)
 
 2. Under Headers add the following:
     * `X-Akamai-ACS-Action: version=1&action=upload`
@@ -39,11 +39,11 @@ Akamai does not maintain or regulate this package. While it can be incorporated 
     * `X-Akamai-ACS-Auth-Sign: {{acsAuthSign}}`
         Observe we're pointing the value to the actual environment variable that will contain the value.
 
-![NetStorage Request Headers](images/ns_req_headers.jpg)
+![NetStorage Request Headers](https://github.com/jaescalo/Akamai-Netstorage-API-Postman/blob/main/images/ns_req_headers.jpg)
 
 3. Add the netstorage-api-postman.js contents under "Pre-request Script"
 
-![NetStorage Pre-Request Script](images/ns_pre-request-script.jpg)
+![NetStorage Pre-Request Script](https://github.com/jaescalo/Akamai-Netstorage-API-Postman/blob/main/images/ns_pre-request-script.jpg)
 
 4. Send the request.
 
@@ -56,6 +56,6 @@ Akamai does not maintain or regulate this package. While it can be incorporated 
 
 3. In the body section select "form-data" and "File" from the KEY field. Point it to your file to upload.
 
-![NetStorage Upload File API](images/ns_put_file_api.jpg)
+![NetStorage Upload File API](https://github.com/jaescalo/Akamai-Netstorage-API-Postman/blob/main/images/ns_put_file_api.jpg)
 
 For any other use case like listing a directory, deleting a file, updating a file, etc make sure to properly adjust the method, URL, body and action parameters.
